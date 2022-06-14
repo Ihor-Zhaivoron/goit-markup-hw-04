@@ -445,6 +445,10 @@ margin-right: 10px;
   color: #ffffff;
   background: #2f303a;
 }
+.flex {
+  display:flex;
+  align-items: baseline;
+}
 .adress-conteiner {
   margin-right: 70px;
 }
@@ -478,4 +482,7 @@ margin-right: 10px;
   line-height: 16px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.fon {
+  background-color: background: rgba(255, 255, 255, 0.1);
 }
