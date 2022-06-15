@@ -420,7 +420,7 @@ margin-right: 10px;
   align-items: baseline;
 }
 .adress-conteiner {
-  margin-right: 70px;
+  /* margin-right: 70px; */
 }
 .footer-address {
   font-style: normal;
@@ -439,7 +439,7 @@ margin-right: 10px;
 }
 .connect-box {
   margin-top: 72px;
-  /* margin-left: 70px; */
+  margin-left: 70px;
 }
 .footer-socials-list {
   display: flex;
@@ -447,9 +447,12 @@ margin-right: 10px;
   margin-top: 20px;
 }
 .connect-title {
-  display: block;
+  /* display: block; */
+  font-family: 'Roboto';
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
