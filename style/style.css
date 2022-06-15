@@ -1,11 +1,11 @@
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 :root {
   --primary-title-color: #212121;
   --primary-text-color: #757575;
@@ -98,9 +98,6 @@ img {
   width: 1200px;
   padding: 0 15px;
 }
-
-/*   outline: 2px solid tomato;
- */
 .header-container {
   display: flex;
   align-items: center;
@@ -112,7 +109,6 @@ img {
 .header-nav > .logo {
   padding: 24px 0px;
 }
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -130,7 +126,6 @@ img {
   align-items: center;
   margin-left: 93px;
 }
-
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -163,7 +158,6 @@ img {
   color: #757575;
 }
 /* ----------------------------------main--------------------------------- */
-
 .title-section {
   text-align: center;
   background: #2f303a;
@@ -193,7 +187,6 @@ img {
   max-width: 650px;
   text-align: center;
 }
-
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -224,10 +217,6 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-
-/* .icon-antenna::before {
-  background-image: url();
-} */
 .skills-list {
   display: flex;
 }
@@ -235,14 +224,6 @@ img {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-/* .skills-box {
-  display: flex;
-  width: 270px;
-  height: 120px;
-  justify-content: center;
-  align-items: center;
-} */
-
 .skills-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -259,7 +240,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
 .work {
   padding-top: 47px;
 }
@@ -290,7 +270,6 @@ li.team-item {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-name,
 .team-position {
   font-weight: 500;
@@ -303,7 +282,6 @@ li.team-item {
 .team-wrapper {
   padding: 30px 5px;
 }
-
 .team-position {
   margin-top: 10px;
   color: var(--primary-text-color);
@@ -333,10 +311,6 @@ margin-right: 10px;
 .client-icon {
   fill: currentColor;
 }
-/* .client {
-  display: flex;
-  justify-content: center;
-} */
 .client-list {
   display: flex;
   justify-content: center;
@@ -362,8 +336,6 @@ margin-right: 10px;
 }
 
 /* ------------------ main portfolio-------------------- */
-/* .portfolio-conteiner { */
-/* } */
 .btn-list.list {
   display: flex;
   justify-content: center;
@@ -427,7 +399,6 @@ margin-right: 10px;
   letter-spacing: 0.06em;
   color: #212121;
 }
-
 .portfolio-subtitle {
   margin-top: 4px;
   font-size: 16px;
@@ -435,7 +406,6 @@ margin-right: 10px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 /* ------------------------------------footer----------------------------------*/
 .footer {
   padding: 60px 0px;
@@ -483,6 +453,10 @@ margin-right: 10px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.fon {
-  background-color: background: rgba(255, 255, 255, 0.1);
+.footer .socials-link {
+  background-color:  rgba(255, 255, 255, 0.1);
+}
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: var(--hover-focus-color);
 }
