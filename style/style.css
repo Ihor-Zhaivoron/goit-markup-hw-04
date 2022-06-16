@@ -201,7 +201,7 @@ img {
   border: none;
 }
 .button:hover {
-  background-color:  #188CE8;
+  background-color: #188CE8;
 }
 .skills {
   padding-bottom: 47px;
@@ -424,9 +424,6 @@ margin-right: 10px;
   display:flex;
   align-items: baseline;
 }
-.adress-conteiner {
-  /* margin-right: 70px; */
-}
 .footer-address {
   font-style: normal;
   margin-top: 20px;
@@ -442,6 +439,10 @@ margin-right: 10px;
 .footer-item:not(:first-child) {
   margin-top: 9px;
 }
+.address-text {
+  font-style: normal;
+  text-decoration: none;
+}
 .connect-box {
   margin-left: 70px;
 }
@@ -451,7 +452,6 @@ margin-right: 10px;
   margin-top: 20px;
 }
 .connect-title {
-  /* display: block; */
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
