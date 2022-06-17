@@ -10,7 +10,11 @@
   --primary-title-color: #212121;
   --primary-text-color: #757575;
   --hover-focus-color: #2196f3;
-  --main-font: 'open sans', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+}
+body {
+  color: #757575;
+  font-family: var(--main-font);
 }
 p,
 h1,
@@ -30,23 +34,12 @@ ul {
 button {
   cursor: pointer;
 }
-
-body {
-  font-family: var(--main-font);
-}
-
 a {
   color: currentColor;
 }
 
 address {
   font-style: normal;
-}
-
-body {
-  margin: 0;
-  color: #757575;
-  font-family: 'Roboto', sans-serif;
 }
 .link {
   text-decoration: none;
@@ -144,9 +137,9 @@ img {
 .contacts .header-tel {
   display: flex;
   align-items: center;
+  padding: 32px 0;
 }
 .header-mail {
-  margin-right: 50px;
   color: #757575;
 }
 .icon-mail,
